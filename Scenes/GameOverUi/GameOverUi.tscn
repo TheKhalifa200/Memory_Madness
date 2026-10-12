@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://calhgngfctiie"]
+
+[ext_resource type="Script" uid="uid://dg7pvu3j8hng5" path="res://Scenes/GameOverUi/GameOverUi.gd" id="1_8nicn"]
+[ext_resource type="FontFile" uid="uid://clxe01otgdygw" path="res://Assets/fonts/LuckiestGuy-Regular.ttf" id="1_j2od3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2od3"]
+content_margin_left = 24.0
+content_margin_top = 24.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+bg_color = Color(0.56576294, 0.6072892, 0.63729596, 0.49803922)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="LabelSettings" id="LabelSettings_8nicn"]
+font = ExtResource("1_j2od3")
+font_size = 96
+outline_size = 6
+outline_color = Color(0.06469653, 0.06469653, 0.06469653, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_mdbud"]
+font = ExtResource("1_j2od3")
+font_size = 32
+font_color = Color(0.7244421, 0.28948423, 0.27041188, 1)
+outline_size = 6
+outline_color = Color(0.06469653, 0.06469653, 0.06469653, 1)
+
+[node name="GameOverUi" type="PanelContainer" unique_id=442337840]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_j2od3")
+script = ExtResource("1_8nicn")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=183743021]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1672439960]
+layout_mode = 2
+text = "You Win"
+label_settings = SubResource("LabelSettings_8nicn")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MovesLabel" type="Label" parent="VBoxContainer" unique_id=2079661556]
+layout_mode = 2
+text = "asdasdasdasdadsa"
+label_settings = SubResource("LabelSettings_mdbud")
+horizontal_alignment = 1
+vertical_alignment = 1
