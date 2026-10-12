@@ -1,0 +1,8 @@
+res://Scenes/Scorer/Scorer.tscn
+res://Scenes/Game/Game.gd
+res://Scenes/MemoryTile/MemoryTile.tscn
+res://Scenes/MemoryTile/MemoryTile.gd
+res://Scenes/SoundController/SoundController.tscn
+res://Scenes/Master/Master.tscn
+res://Scenes/SoundController/SoundController.gd
+res://Scenes/Scorer/Scorer.gd
